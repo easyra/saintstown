@@ -140,6 +140,9 @@ h2,
 h3 {
   font-family: 'Merienda', cursive; }
 
+* {
+  box-sizing: border-box; }
+
 .navbar {
   background: lightgrey; }
   .navbar .nav-content {
@@ -219,5 +222,53 @@ h3 {
         margin-top: 10px;
         display: flex;
         justify-content: space-around; }
+        .about .content .author-img .links .fa-facebook {
+          color: blue; }
+        .about .content .author-img .links .fa-instagram {
+          color: purple; }
+        .about .content .author-img .links .fa-twitter {
+          color: cyan; }
+        .about .content .author-img .links .link:hover {
+          transform: scale(1.048); }
+
+.excerpt {
+  margin: 3% 0; }
+  .excerpt .beginning {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 35px; }
+  .excerpt h2 {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 18px; }
+  .excerpt .content {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%; }
+    .excerpt .content .text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+      max-height: 826px; }
+      .excerpt .content .text p {
+        max-width: 450px;
+        width: 100%;
+        margin: 15px 0 0; }
+
+.quotes {
+  margin: 15px 0;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around; }
+  .quotes .quote {
+    max-width: 450px;
+    width: 100%; }
+  .quotes .author {
+    margin-top: 15px;
+    font-weight: bold; }
 
 /*# sourceMappingURL=styles.css.map */

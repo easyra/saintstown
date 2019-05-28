@@ -44,6 +44,20 @@
         margin-top: 10px;
         display: flex;
         justify-content: space-around;
+        .fa-facebook {
+          color: blue;
+        }
+        .fa-instagram {
+          color: purple;
+        }
+        .fa-twitter {
+          color: cyan;
+        }
+        .link {
+          &:hover {
+            transform: scale(1.048);
+          }
+        }
       }
     }
   }
