@@ -1,0 +1,50 @@
+.about {
+  margin: 3% 0;
+  h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .content {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .text {
+      max-width: 500px;
+      width: 100%;
+
+      h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+    }
+    .author-img {
+      max-width: 300px;
+      width: 100%;
+
+      .img-container {
+        max-height: 330px;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+      }
+
+      img {
+        width: 100%;
+      }
+      .links {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+  }
+}

@@ -136,15 +136,16 @@ li {
   font-family: 'Roboto', sans-serif; }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: 'Merienda', cursive; }
 
 .navbar {
   background: lightgrey; }
   .navbar .nav-content {
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
     margin: 0 auto;
-    padding: 15px;
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
@@ -154,7 +155,21 @@ h2 {
     .navbar .nav-content .nav-items {
       width: 100%;
       display: flex;
-      justify-content: space-around; }
+      justify-content: space-around;
+      align-items: center; }
+      .navbar .nav-content .nav-items .nav-item {
+        transition: all 0.2s;
+        padding: 15px 7.5px;
+        cursor: pointer; }
+        .navbar .nav-content .nav-items .nav-item:hover {
+          background: gray;
+          color: #fff; }
+        .navbar .nav-content .nav-items .nav-item.cta {
+          background: gray;
+          color: #fff; }
+          .navbar .nav-content .nav-items .nav-item.cta:hover {
+            background: silver;
+            color: #fff; }
 
 .main-header {
   background: black;
@@ -167,5 +182,42 @@ h2 {
   .main-header h2 {
     margin-top: 15px;
     font-size: 36px; }
+
+.about {
+  margin: 3% 0; }
+  .about h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 15px; }
+  .about .content {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .about .content .text {
+      max-width: 500px;
+      width: 100%; }
+      .about .content .text h3 {
+        font-size: 18px;
+        margin-bottom: 15px; }
+      .about .content .text p {
+        font-size: 16px;
+        margin-bottom: 15px; }
+    .about .content .author-img {
+      max-width: 300px;
+      width: 100%; }
+      .about .content .author-img .img-container {
+        max-height: 330px;
+        height: 100%;
+        width: 100%;
+        overflow: hidden; }
+      .about .content .author-img img {
+        width: 100%; }
+      .about .content .author-img .links {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around; }
 
 /*# sourceMappingURL=styles.css.map */
