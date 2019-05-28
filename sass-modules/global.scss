@@ -17,3 +17,13 @@ h3 {
 * {
   box-sizing: border-box;
 }
+
+html,
+body {
+  background: $color1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

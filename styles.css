@@ -126,6 +126,22 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* Color Theme Swatches in Hex */
+.Symbol-of-rivalry-and-struggle-or-merging-of-a-compound.-Ink-in-water-red-and-blue-isolated-on-white-1-hex {
+  color: #73020c; }
+
+.Symbol-of-rivalry-and-struggle-or-merging-of-a-compound.-Ink-in-water-red-and-blue-isolated-on-white-2-hex {
+  color: #034aa6; }
+
+.Symbol-of-rivalry-and-struggle-or-merging-of-a-compound.-Ink-in-water-red-and-blue-isolated-on-white-3-hex {
+  color: #034aa6; }
+
+.Symbol-of-rivalry-and-struggle-or-merging-of-a-compound.-Ink-in-water-red-and-blue-isolated-on-white-4-hex {
+  color: #a60505; }
+
+.Symbol-of-rivalry-and-struggle-or-merging-of-a-compound.-Ink-in-water-red-and-blue-isolated-on-white-5-hex {
+  color: #f2f2f2; }
+
 h2,
 h4,
 h3,
@@ -143,8 +159,16 @@ h3 {
 * {
   box-sizing: border-box; }
 
+html,
+body {
+  background: #f2f2f2; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
 .navbar {
-  background: lightgrey; }
+  background: #a60505; }
   .navbar .nav-content {
     max-width: 1000px;
     width: 100%;
@@ -165,18 +189,18 @@ h3 {
         padding: 15px 7.5px;
         cursor: pointer; }
         .navbar .nav-content .nav-items .nav-item:hover {
-          background: gray;
-          color: #fff; }
+          background: #034aa6;
+          color: #f2f2f2; }
         .navbar .nav-content .nav-items .nav-item.cta {
-          background: gray;
-          color: #fff; }
+          background: #034aa6;
+          color: #f2f2f2; }
           .navbar .nav-content .nav-items .nav-item.cta:hover {
-            background: silver;
-            color: #fff; }
+            background: #034aa6;
+            color: #f2f2f2; }
 
 .main-header {
-  background: black;
-  color: #fff;
+  background: #73020c;
+  color: #f2f2f2;
   padding: 4% 0;
   text-transform: uppercase;
   text-align: center; }
