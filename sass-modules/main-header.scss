@@ -1,0 +1,17 @@
+$header-bg: $color5;
+$header-color: $color1;
+
+.main-header {
+  background: $color5;
+  color: $header-color;
+  padding: 4% 0;
+  text-transform: uppercase;
+  text-align: center;
+  h1 {
+    font-size: 72px;
+  }
+  h2 {
+    margin-top: 15px;
+    font-size: 36px;
+  }
+}
