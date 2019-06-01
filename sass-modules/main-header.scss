@@ -1,12 +1,13 @@
-$header-bg: $color5;
+$header-bg: $color2;
 $header-color: $color1;
 
 .main-header {
-  background: $color5;
+  background: $header-bg;
   color: $header-color;
   padding: 4% 0;
   text-transform: uppercase;
   text-align: center;
+  cursor: default;
   h1 {
     font-size: 72px;
   }

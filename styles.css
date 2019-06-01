@@ -168,11 +168,12 @@ a {
   color: inherit; }
 
 .navbar {
-  background: #a60505; }
+  background: #73020c; }
   .navbar .nav-content {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
+    color: #f2f2f2;
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
@@ -188,22 +189,14 @@ a {
         transition: all 0.2s;
         padding: 15px 7.5px;
         cursor: pointer; }
-        .navbar .nav-content .nav-items .nav-item:hover {
-          background: #034aa6;
-          color: #f2f2f2; }
-        .navbar .nav-content .nav-items .nav-item.cta {
-          background: #034aa6;
-          color: #f2f2f2; }
-          .navbar .nav-content .nav-items .nav-item.cta:hover {
-            background: #034aa6;
-            color: #f2f2f2; }
 
 .main-header {
-  background: #73020c;
+  background: #a60505;
   color: #f2f2f2;
   padding: 4% 0;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  cursor: default; }
   .main-header h1 {
     font-size: 72px; }
   .main-header h2 {

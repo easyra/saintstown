@@ -1,13 +1,13 @@
 $nav-title: $color5;
-$nav-bg: $color2;
-
+$nav-bg: $color5;
+$nav-color: $color1;
 .navbar {
   background: $nav-bg;
   .nav-content {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-
+    color: $nav-color;
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
@@ -25,18 +25,6 @@ $nav-bg: $color2;
         transition: all 0.2s;
         padding: 15px 7.5px;
         cursor: pointer;
-        &:hover {
-          background: $color4;
-          color: $color1;
-        }
-        &.cta {
-          background: $color4;
-          color: $color1;
-          &:hover {
-            background: $color3;
-            color: $color1;
-          }
-        }
       }
     }
   }
