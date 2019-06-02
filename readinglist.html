@@ -5,19 +5,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merienda|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
     <title>Reading List</title>
   </head>
   <body>
     <nav class="navbar">
       <div class="nav-content">
         <ul class="nav-items">
-          <li class="nav-item title">
-            <a href="index.html">Dear Future Wife</a>
-          </li>
+          <li class="nav-item hamburger"><i class="fas fa-bars fa-2x"></i></li>
+          <li class="nav-item"><a href="index.html">Dear Future Wife</a></li>
           <li class="nav-item">Interviews</li>
           <li class="nav-item cta">Buy Book</li>
         </ul>
       </div>
     </nav>
+    <div class="reading-list">
+      <h1 class="title">Reading List</h1>
+      <div class="content">
+        <div class="text">
+          <p>
+            It is said that knowledge in and of self without a change in
+            behaviour is a waste of information. I have learned a lot from many
+            books but these are stand outs to me in my journey for the discovery
+            of love for me and other.
+          </p>
+        </div>
+        <div class="list">
+          <ul class="items">
+            <li class="item">
+              <a
+                href="https://www.amazon.com/Mastery-Love-Practical-Guide-Relationship/dp/B0007RWWQG/ref=sr_1_3?keywords=the+mastery+of+love&qid=1559488924&s=gateway&sr=8-3"
+                >The Mastery of Love
+              </a>
+              - Don Miguel Ruiz
+            </li>
+            <li class="item">
+              <a
+                href="https://www.amazon.com/Five-Love-Languages-Secret-Lasts/dp/B079B7PJMV/ref=sr_1_1?crid=2LW49IYJLX69Q&keywords=the+four+love+languages+book&qid=1559488982&s=books&sprefix=the+four+love+lan%2Caudible%2C367&sr=1-1"
+                >The Four Love Language
+              </a>
+              - Gary Chapman
+            </li>
+            <li class="item">
+              <a
+                href="https://www.amazon.com/Amber-Allen-Publishing-Inc-Agreements/dp/B0007OB40E/ref=sr_1_1?crid=28Z0J02Y0Z9NE&keywords=the+four+agreements+by+don+miguel+ruiz&qid=1559489022&s=books&sprefix=the+four+agree%2Caudible%2C327&sr=1-1"
+                >The Four Agreement </a
+              >- Don Miguel Ruiz
+            </li>
+            <li class="item">
+              <a
+                href="https://www.amazon.com/Love-Never-Enough-Misunderstandings-Relationship/dp/1515954668/ref=sr_1_2?keywords=love+is+never+enough&qid=1559489067&s=books&sr=1-2-catcorr"
+                >Love Is Never Enough </a
+              >- Aaron Beck
+            </li>
+            <li class="item">
+              <a
+                href="https://www.amazon.com/Wild-Heart-Discovering-Secret-Mans/dp/B0002P0EE0/ref=sr_1_1?crid=169QW4OCN2BUF&keywords=wild+at+heart+john+eldredge&qid=1559489103&s=books&sprefix=wild+at+heart%2Cstripbooks%2C253&sr=1-1"
+                >Wild at Heart </a
+              >- John Eldredge
+            </li>
+            <li class="item">
+              <a
+                href="https://www.amazon.com/The-Prophet/dp/B07MD6FXR1/ref=sr_1_1?crid=16XKDIL49C7NX&keywords=the+prophet+kahlil+gibran&qid=1559489146&s=books&sprefix=the+prophet%2Caudible%2C262&sr=1-1-catcorr"
+                >The Prophet </a
+              >- Kahlil Gibran
+            </li>
+            <li class="item">
+              <a
+                href="https://www.amazon.com/Wait-Powerful-Practice-Finding-Love/dp/B01CDEK7AI/ref=sr_1_1?crid=2A6OEFA10SIM8&keywords=the+wait+by+devon+franklin+and+megan+good&qid=1559489202&s=books&sprefix=the+wait+%2Caudible%2C206&sr=1-1"
+                >The Wait </a
+              >- Devon Franklin
+            </li>
+            <li class="item">
+              <a
+                href="https://www.amazon.com/Best-Simple-Stories-American-Century/dp/0374521336/ref=sr_1_1?crid=77M3TJDDXCRK&keywords=the+best+of+simple+langston+hughes&qid=1559489246&s=books&sprefix=the+best+of+simple+la%2Caudible%2C220&sr=1-1"
+                >The Best of Simple </a
+              >- Langston Hughes
+            </li>
+            <li class="item">
+              <a
+                href="https://www.amazon.com/Destruction-Black-Civilization-Issues-D/dp/0883780305/ref=sr_1_1?crid=1WQ84YNBXS2IU&keywords=the+destruction+of+black+civilization&qid=1559489286&s=books&sprefix=the+dest%2Cstripbooks%2C326&sr=1-1"
+                >The Destruction of The Black Civilizations</a
+              >
+              - Chancellor Williams
+            </li>
+            <li class="item">
+              <a
+                href="https://www.amazon.com/Siddhartha/dp/B000FMQQB0/ref=sr_1_3?crid=2ARET5CQIKV1E&keywords=siddartha+hesse+herman&qid=1559489326&s=books&sprefix=siddartha%2Cstripbooks%2C347&sr=1-3"
+                >Siddartha</a
+              >
+              - Herman Hesse
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
+  <script>
+    const hamburger = document.querySelector('.hamburger i');
+    const navItems = document.querySelectorAll('.nav-item');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('fa-bars');
+      hamburger.classList.toggle('fa-times');
+      navItems.forEach(node => node.classList.toggle('show'));
+    });
+  </script>
 </html>
