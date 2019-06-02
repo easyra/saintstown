@@ -20,11 +20,25 @@ $nav-color: $color1;
       display: flex;
       justify-content: space-around;
       align-items: center;
-
+      @media screen and (max-width: 500px) {
+        flex-direction: column;
+      }
       .nav-item {
         transition: all 0.2s;
         padding: 15px 7.5px;
         cursor: pointer;
+        &.hamburger {
+          display: none;
+        }
+        @media screen and (max-width: 500px) {
+          display: none;
+          &.hamburger {
+            display: inline-block;
+          }
+          &.show {
+            display: inline-block;
+          }
+        }
       }
     }
   }

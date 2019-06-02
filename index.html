@@ -20,15 +20,14 @@
     <nav class="navbar">
       <div class="nav-content">
         <ul class="nav-items">
-          <li class="nav-item">Instagram</li>
-          <li class="nav-item">Facebook</li>
-          <li class="nav-item">Twitter</li>
+            <li class="nav-item hamburger"><i class="fas fa-bars fa-2x"></i></li>
           <li class="nav-item"><a href="readinglist.html">Reading List</a></li>
           <li class="nav-item">Interviews</li>
-          <li class="nav-item cta">Buy Book</li>
+          <li class="nav-item cta">Buy Book</li>          
+          
         </ul>
       </div>
-    </nav>
+      </nav>
     <section class="about">
       <h2>From The Author</h2>
       <div class="content">
@@ -97,4 +96,13 @@
 
     </section>
   </body>
+  <script>
+  const hamburger = document.querySelector('.hamburger i')
+  const navItems = document.querySelectorAll('.nav-item')
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('fa-bars');
+    hamburger.classList.toggle('fa-times')
+    navItems.forEach(node => node.classList.toggle('show'))
+  })
+  </script>
 </html>

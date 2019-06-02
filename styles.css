@@ -185,10 +185,22 @@ a {
       display: flex;
       justify-content: space-around;
       align-items: center; }
+      @media screen and (max-width: 500px) {
+        .navbar .nav-content .nav-items {
+          flex-direction: column; } }
       .navbar .nav-content .nav-items .nav-item {
         transition: all 0.2s;
         padding: 15px 7.5px;
         cursor: pointer; }
+        .navbar .nav-content .nav-items .nav-item.hamburger {
+          display: none; }
+        @media screen and (max-width: 500px) {
+          .navbar .nav-content .nav-items .nav-item {
+            display: none; }
+            .navbar .nav-content .nav-items .nav-item.hamburger {
+              display: inline-block; }
+            .navbar .nav-content .nav-items .nav-item.show {
+              display: inline-block; } }
 
 .main-header {
   background: #a60505;
@@ -197,14 +209,32 @@ a {
   text-transform: uppercase;
   text-align: center;
   cursor: default; }
+  @media screen and (max-width: 500px) {
+    .main-header {
+      padding: 10% 0; } }
   .main-header h1 {
     font-size: 72px; }
+    @media screen and (max-width: 800px) {
+      .main-header h1 {
+        font-size: 48px; } }
+    @media screen and (max-width: 500px) {
+      .main-header h1 {
+        font-size: 36px; } }
   .main-header h2 {
     margin-top: 15px;
     font-size: 36px; }
+    @media screen and (max-width: 800px) {
+      .main-header h2 {
+        font-size: 24px; } }
+    @media screen and (max-width: 500px) {
+      .main-header h2 {
+        display: none; } }
 
 .about {
-  margin: 3% 0; }
+  padding: 3% 0; }
+  @media screen and (max-width: 800px) {
+    .about {
+      padding-top: 0; } }
   .about h2 {
     font-size: 36px;
     text-align: center;
@@ -217,9 +247,13 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center; }
+    @media screen and (max-width: 800px) {
+      .about .content {
+        flex-direction: column-reverse; } }
     .about .content .text {
       max-width: 500px;
-      width: 100%; }
+      width: 100%;
+      padding: 15px; }
       .about .content .text h3 {
         font-size: 18px;
         margin-bottom: 15px; }
@@ -272,11 +306,14 @@ a {
       flex-direction: column;
       align-items: center;
       flex-wrap: wrap;
-      max-height: 826px; }
+      max-height: 950px; }
+      @media screen and (max-width: 1000px) {
+        .excerpt .content .text {
+          max-height: max-content; } }
       .excerpt .content .text p {
         max-width: 450px;
         width: 100%;
-        margin: 15px 0 0; }
+        padding: 15px; }
 
 .quotes {
   padding: 50px 15px;
@@ -287,10 +324,13 @@ a {
   align-items: center;
   background: #a60505;
   color: #f2f2f2; }
+  @media screen and (max-width: 500px) {
+    .quotes {
+      flex-direction: column; } }
   .quotes .quote {
     max-width: 400px;
     width: 100%;
-    margin: 0 7.5px; }
+    padding: 15px; }
   .quotes .author {
     margin-top: 15px;
     font-weight: bold; }
