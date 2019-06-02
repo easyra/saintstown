@@ -208,7 +208,8 @@ a {
   .about h2 {
     font-size: 36px;
     text-align: center;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    display: none; }
   .about .content {
     max-width: 1000px;
     width: 100%;
@@ -240,21 +241,24 @@ a {
         display: flex;
         justify-content: space-around; }
         .about .content .author-img .links .fa-facebook {
-          color: blue; }
+          color: #3b5998; }
         .about .content .author-img .links .fa-instagram {
-          color: purple; }
+          color: #3f729b; }
         .about .content .author-img .links .fa-twitter {
-          color: cyan; }
+          color: #00acee; }
         .about .content .author-img .links .link:hover {
           transform: scale(1.048); }
 
 .excerpt {
-  margin: 3% 0; }
+  padding: 3% 0;
+  background: #73020c;
+  color: #f2f2f2; }
   .excerpt .beginning {
     max-width: 500px;
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 35px; }
+    margin-bottom: 35px;
+    display: none; }
   .excerpt h2 {
     text-align: center;
     margin: 5px 0;
