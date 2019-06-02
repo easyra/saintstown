@@ -142,6 +142,10 @@ table {
 .Symbol-of-rivalry-and-struggle-or-merging-of-a-compound.-Ink-in-water-red-and-blue-isolated-on-white-5-hex {
   color: #f2f2f2; }
 
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
+
 h2,
 h4,
 h3,
@@ -156,9 +160,6 @@ h2,
 h3 {
   font-family: 'Merienda', cursive; }
 
-* {
-  box-sizing: border-box; }
-
 html,
 body {
   background: #f2f2f2;
@@ -168,6 +169,18 @@ body {
 a {
   text-decoration: none;
   color: inherit; }
+
+.btn {
+  padding: 8px;
+  background: #a60505;
+  color: #f2f2f2;
+  max-width: max-content;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 4px;
+  transition: all 0.2s;
+  font-size: 24px;
+  cursor: pointer; }
 
 .navbar {
   background: #73020c; }
@@ -234,14 +247,10 @@ a {
 
 .about {
   padding: 3% 0; }
-  @media screen and (max-width: 800px) {
-    .about {
-      padding-top: 0; } }
   .about h2 {
-    font-size: 36px;
+    font-size: 24px;
     text-align: center;
-    margin-bottom: 15px;
-    display: none; }
+    margin-bottom: 15px; }
   .about .content {
     max-width: 1000px;
     width: 100%;
@@ -262,6 +271,8 @@ a {
       .about .content .text p {
         font-size: 16px;
         margin-bottom: 15px; }
+      .about .content .text .btn {
+        margin-top: 15px; }
     .about .content .author-img {
       max-width: 300px;
       width: 100%; }
@@ -316,6 +327,9 @@ a {
         max-width: 450px;
         width: 100%;
         padding: 15px; }
+      .excerpt .content .text .btn {
+        background: #f2f2f2;
+        color: #a60505; }
 
 .quotes {
   padding: 50px 15px;

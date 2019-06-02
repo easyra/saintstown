@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
 h2,
 h4,
 h3,
@@ -14,10 +19,6 @@ h3 {
   font-family: 'Merienda', cursive;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 html,
 body {
   background: $color1;
@@ -28,4 +29,17 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.btn {
+  padding: 8px;
+  background: $color2;
+  color: $color1;
+  max-width: max-content;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 4px;
+  transition: all 0.2s;
+  font-size: 24px;
+  cursor: pointer;
 }
