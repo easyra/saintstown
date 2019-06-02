@@ -308,7 +308,7 @@ a {
       flex-direction: column;
       align-items: center;
       flex-wrap: wrap;
-      max-height: 950px; }
+      max-height: 1200px; }
       @media screen and (max-width: 1000px) {
         .excerpt .content .text {
           max-height: max-content; } }
