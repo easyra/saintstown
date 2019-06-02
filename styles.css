@@ -275,15 +275,18 @@ a {
         margin: 15px 0 0; }
 
 .quotes {
-  margin: 15px 0;
-  max-width: 1000px;
+  padding: 50px 15px;
   width: 100%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around; }
+  justify-content: center;
+  align-items: center;
+  background: #a60505;
+  color: #f2f2f2; }
   .quotes .quote {
-    max-width: 450px;
-    width: 100%; }
+    max-width: 400px;
+    width: 100%;
+    margin: 0 7.5px; }
   .quotes .author {
     margin-top: 15px;
     font-weight: bold; }
