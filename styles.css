@@ -358,7 +358,7 @@ a {
     font-weight: bold; }
 
 .reading-list {
-  padding: 4% 0; }
+  padding: 4% 0 15%; }
   .reading-list .title {
     font-size: 24px;
     text-align: center;
