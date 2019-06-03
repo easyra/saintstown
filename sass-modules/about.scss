@@ -34,6 +34,9 @@
       }
       .btn {
         margin-top: 15px;
+        @media screen and (max-width: 800px) {
+          margin: 15px auto 0;
+        }
       }
     }
     .author-img {

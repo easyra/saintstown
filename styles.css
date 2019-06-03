@@ -273,6 +273,9 @@ a {
         margin-bottom: 15px; }
       .about .content .text .btn {
         margin-top: 15px; }
+        @media screen and (max-width: 800px) {
+          .about .content .text .btn {
+            margin: 15px auto 0; } }
     .about .content .author-img {
       max-width: 300px;
       width: 100%; }
