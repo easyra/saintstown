@@ -182,6 +182,9 @@ a {
   font-size: 24px;
   cursor: pointer; }
 
+.italic {
+  font-style: italic; }
+
 .navbar {
   background: #73020c; }
   .navbar .nav-content {
@@ -300,7 +303,7 @@ a {
           transform: scale(1.048); }
 
 .excerpt {
-  padding: 3% 0;
+  padding: 3% 0 5%;
   background: #73020c;
   color: #f2f2f2; }
   .excerpt .beginning {
@@ -381,5 +384,13 @@ a {
         .reading-list .content .list .items .item a {
           color: #a60505;
           text-decoration: underline; }
+
+.footer {
+  padding: 50px;
+  background: #400106;
+  color: #f2f2f2; }
+  .footer h6 {
+    margin-bottom: 5px;
+    opacity: 0.5; }
 
 /*# sourceMappingURL=styles.css.map */
