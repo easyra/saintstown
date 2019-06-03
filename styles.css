@@ -357,10 +357,9 @@ a {
 .reading-list {
   padding: 4% 0; }
   .reading-list .title {
-    font-size: 36px;
+    font-size: 24px;
     text-align: center;
-    margin-bottom: 15px;
-    font-family: 'Roboto', sans-serif; }
+    margin-bottom: 15px; }
   .reading-list .content {
     max-width: 1000px;
     width: 100%;
