@@ -2,13 +2,13 @@ $quotes-bg: $color2;
 $quotes-color: $color1;
 
 .quotes {
-  padding: 50px 15px;
+  padding: 3% 15px;
   // max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  align-items: center;
+  // align-items: center;
   background: $quotes-bg;
   color: $quotes-color;
   @media screen and (max-width: 500px) {
