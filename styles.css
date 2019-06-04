@@ -345,7 +345,8 @@ a {
   display: flex;
   justify-content: center;
   background: #a60505;
-  color: #f2f2f2; }
+  color: #f2f2f2;
+  font-family: 'Roboto', sans-serif; }
   @media screen and (max-width: 500px) {
     .quotes {
       flex-direction: column; } }

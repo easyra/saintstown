@@ -11,6 +11,7 @@ $quotes-color: $color1;
   // align-items: center;
   background: $quotes-bg;
   color: $quotes-color;
+  font-family: 'Roboto', sans-serif;
   @media screen and (max-width: 500px) {
     flex-direction: column;
   }
