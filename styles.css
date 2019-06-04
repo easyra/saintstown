@@ -270,7 +270,8 @@ a {
       padding: 15px; }
       .about .content .text h3 {
         font-size: 18px;
-        margin-bottom: 15px; }
+        margin-top: 5px;
+        margin-bottom: 7px; }
       .about .content .text p {
         font-size: 16px;
         margin-bottom: 15px; }
