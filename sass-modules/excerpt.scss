@@ -14,6 +14,10 @@
     margin: 5px 0;
     font-size: 18px;
   }
+  .poem-title {
+    margin-top: 15px;
+    margin-bottom: -5px;
+  }
   h3 {
   }
   .content {
@@ -27,6 +31,7 @@
       // justify-content: space-around;
       flex-wrap: wrap;
       max-height: 1200px;
+
       @media screen and (max-width: 1000px) {
         max-height: max-content;
       }

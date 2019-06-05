@@ -322,6 +322,9 @@ a {
     text-align: center;
     margin: 5px 0;
     font-size: 18px; }
+  .excerpt .poem-title {
+    margin-top: 15px;
+    margin-bottom: -5px; }
   .excerpt .content {
     margin: 0 auto;
     max-width: 1000px;
