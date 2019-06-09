@@ -228,7 +228,7 @@ a {
 .main-header {
   background: #a60505;
   color: #f2f2f2;
-  padding: 4% 0;
+  padding: 3.5% 0;
   text-transform: uppercase;
   text-align: center;
   cursor: default; }
@@ -254,7 +254,7 @@ a {
         display: none; } }
 
 .about {
-  padding: 3% 0; }
+  padding: 15px 0; }
   .about h2 {
     font-size: 24px;
     text-align: center;
